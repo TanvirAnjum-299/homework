@@ -1,173 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Indian Food</title>
-<header>
-  <h1>Indian Cuisines</h1>
-  <div>
-    <img src="indian-cuisine-dishes-menu-cover-template-vector.jpg">
-    <p id="description">The traditional food of India has been widely appreciated for its fabulous use of herbs and spices. Indian cuisine is known for its large assortment dishes. The cooking style varies from region to region and is largely divided into South Indian & North Indian cuisine. India is quite famous for its diverse multi cuisine available in a large number of restaurants and hotel resorts, which is reminiscent of unity in diversity.</p>
-  </div>
-</header>
-
-<style>
-    body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background: #ffffff;
-        }
-
-        h1 {
-            margin-bottom: 10px;
-        }
-        p {
-            font-size: 14px;
-            line-height: 1.6;
-        }
-
-        /* Navigation list */
-        ul {
-            padding-left: 0;
-            margin-bottom: 20px;
-        }
-
-        li {
-            list-style: none;
-            margin: 3px 0;
-        }
-
-        a {
-            text-decoration: none;
-            color: black;
-            font-weight: bold;
-        }
-
-        /* Food section box */
-        .food-section {
-            background: #fdeef4;          /* light pink */
-            margin-bottom: 30px;
-            border: 1px solid #eee;
-        }
-
-        /* Yellow heading bar */
-        .food-section h2 {
-            margin: 0;
-            padding: 8px;
-            background: #f6e27f;          /* yellow */
-            text-align: center;
-            font-size: 16px;
-        }
-
-        /* Image + text side by side */
-        .food-content {
-            display: flex;
-            gap: 15px;
-            padding: 10px;
-            align-items: flex-start;
-        }
-
-        .food-content img {
-            width: 150px;
-            height: auto;
-            border: 1px solid #ccc;
-        }
-
-        .food-content p {
-            margin: 0;
-            font-size: 13px;
-        }
+  <head>
+    <title>Grid Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+</html>
+<style type="text/css">
+  h1 {
+    color: green;
+  }
+  #a1, #a4 {
+    color: white;
+    background: olive;
+    font-size: 20px;
+  }
+  #a2, #a5 {
+    color: white;
+    background: maroon;
+    font-size: 20px;
+  }
+  #a3, #a6 {
+    color: white;
+    background: fuchsia;
+    font-size: 20px;
+  }
 </style>
-</head>
+<div class="container-fluid">
+  <!-- class="container-fluid" provides full width page -->
+  <h1>Unequal Area Grids</h1>
+  <div class="row">
+    <div id="a1" class="col-sm-3">Adding 1-3 grids</div>
+    <div id="a2" class="col-sm-4">Adding 4-7 grids</div>
+    <div id="a3" class="col-sm-5">Adding 8-12 grids</div>
+  </div>
 
-<body>
-
-    <h1>Indian Food</h1>
-
-    <p>
-        The traditional food of India has been widely appreciated for its fabulous use of herbs and spices.
-        Indian cuisine is known for its large assortment of dishes. The cooking style varies from region to
-        region and is largely divided into South Indian and North Indian cuisine.
-    </p>
-
-    <ul>
-        <li><a href="#bengali">BENGALI</a></li>
-        <li><a href="#gujarati">GUJARATI</a></li>
-        <li><a href="#mughlai">MUGHLAL</a></li>
-        <li><a href="#punjabi">PUNJABI</a></li>
-        <li><a href="#south-indian">SOUTH INDIAN</a></li>
-    </ul>
-
-    <!-- Bengali Food -->
-    <div class="food-section" id="bengali">
-        <h2>Bengali Food</h2>
-        <div class="food-content">
-            <img src="OIP.webp" alt="OIP">
-            <p>
-                Bengali cuisine is appreciated for its fabulous use of panchphoron, a term used to refer
-                to the five essential spices namely mustard, fenugreek seed, cumin seed, aniseed,
-                and black cumin seed. The specialty of Bengali food lies in the perfect blend of sweet and spicy flavors.
-            </p>
-        </div>
-    </div>
-
-    <!-- Gujarati Food -->
-    <div class="food-section" id="gujarati">
-        <h2>Gujarati Food</h2>
-        <div class="food-content">
-            <img src="Dhokla_20180327130008.jpg" alt="Dhokla_20180327130008">
-            <p>
-                The traditional Gujarati food is primarily vegetarian and has a high nutritional value.
-                The typical Gujarati thali consists of varied kinds of lip smacking dishes.
-                Gujarati cuisine has so much to offer and each dish has an absolutely different cooking style.
-            </p>
-        </div>
-    </div>
-
-    <!-- Mughlai Food -->
-    <div class="food-section" id="mughlai">
-        <h2>Mughlai Food</h2>
-        <div class="food-content">
-            <img src="mughlaicui-706ca44ba1f2a25.jpg" alt="mughlaicui-706ca44ba1f2a25">
-            <p>
-                Mughlai cuisine is one of the most popular cuisines, whose origin can be traced back
-                to the times of the Mughal Empire. Mughlai cuisine consists of dishes that were prepared
-                in the kitchens of royal Mughal Emperors.
-            </p>
-        </div>
-    </div>
-
-    <!-- Punjabi Food -->
-    <div class="food-section" id="punjabi">
-        <h2>Punjabi Food</h2>
-        <div class="food-content">
-            <img src="df4b54f1689acdfce039a984aa57bbbd.jpg" indicating="df4b54f1689acdfce039a984aa57bbbd">
-            <p>
-                The cuisine of Punjab has an enormous variety of mouth-watering vegetarian and
-                non-vegetarian dishes. The spice content ranges from minimal to pleasant to high.
-                Punjabi food is usually relished by people of all communities.
-            </p>
-        </div>
-    </div>
-
-    <!-- South Indian Cuisine -->
-    <div class="food-section" id="south-indian">
-        <h2>South Indian Cuisine</h2>
-        <div class="food-content">
-            <img src="image3-4.jpg" alt="image3-4">
-            <p>
-                South Indian cuisine is known for its light, healthy meals with a perfect balance
-                of spices. Rice, lentils, coconut, and tamarind are widely used ingredients in
-                South Indian dishes.
-            </p>
-        </div>
-    </div>
-    <div class="parent-element" style="position:absolute; width: 200px; height: 200px; border: 1px solid;">
-  <div class="child-element" style="position:relative; width: 100px; height: 100px; background-color: blue; color: white; top: 40px; left: 40px;">
+  <div class="row">
+    <div id="a4" class="col-sm-2">Adding 1-2 grids</div>
+    <div id="a5" class="col-sm-6">Adding 3-8 grids</div>
+    <div id="a6" class="col-sm-4">Adding 9-12 grids</div>
   </div>
 </div>
-
 
 </body>
 </html>
