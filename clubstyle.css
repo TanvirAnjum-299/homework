@@ -1,0 +1,249 @@
+body {
+    /* first lesson*/
+    background-color: #eeeeee;
+}
+
+header {
+    /* first lesson*/
+    background-color: brown;
+
+    /*fifth lesson*/
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav {
+    /* first lesson*/
+    background-color: aquamarine;
+
+    position: sticky;
+    top:0;
+    z-index:  2;
+}
+
+#intro {
+    /* first lesson*/
+    background-color: lightpink;
+    /*second lesson*/
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.main-section-content h2 {
+    /* first lesson*/
+    background-color: darkkhaki;
+    /*second lesson*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#bestsellers,
+footer {
+    /* first lesson*/
+    background-color: lightyellow;
+}
+
+header,
+nav,
+#intro,
+#main-section,
+#bestsellers,
+footer {
+    /* first lesson*/
+    border: 1px solid black;
+}
+
+header,
+nav,
+#main-section {
+    /* first lesson*/
+    border-radius: 10px;
+}
+
+h1 {
+    /* first lesson*/
+    color: white;
+    /*second lesson*/
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 30px;
+}
+
+h2,
+p {
+    /* first lesson*/
+    color: #333333;
+}
+
+table,
+th,
+td {
+    /* first lesson*/
+    border: 1px solid black;
+}
+
+tr:last-child {
+    /* first lesson*/
+    color: red;
+}
+
+span {
+    /* first lesson*/
+    color: blue;
+}
+
+footer p:first-child span {
+    /* first lesson*/
+    color: red;
+}
+
+.teacher-info {
+    /* first lesson*/
+    border-radius: 5px;
+    /*third lesson*/
+    margin: 30px;
+    width : 400px;
+    box-shadow: 6px 0px  21px -3px #333333;
+
+     /*fifth lesson*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button {
+    /*first lesson*/
+    background-color: red;
+    color: white;
+    /*second-lesson*/
+    font-size: 20px;
+    font-weight: bold;
+
+    position:fixed;
+    right: 10px;
+    bottom: 80px;
+
+    padding: 5px;
+    border-radius: 5px;
+    border:none;
+}
+
+/*second lesson*/
+ul {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+li a:hover {
+    color: red;
+}
+
+p {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+nav li{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+
+
+.main-section-content{
+    padding:20px;
+}
+
+
+
+
+table{
+ margin: auto;   
+}
+th,
+td{
+    padding: 10px
+}
+
+footer{
+    padding: 20px;
+    margin-top:10px;
+
+    /*fifth lesson*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#bestsellers h2{
+    padding: 20px;
+}
+
+
+#book-reveiws p,
+#book-reviews h3{
+    position:relative;
+    left: 40px;
+    width: 400px;
+}
+
+/*fifth lesson*/
+
+#videos div {
+display: flex;
+justify-content: space-around;
+}
+
+#teachers {
+display: flex;
+}
+
+/*sixth lesson*/
+
+header{
+    grid-area: header;
+}
+
+nav{
+    grid-area: nav;
+}
+
+#intro{
+    grid-area: intro;
+}
+
+#mainsection{
+    grid-area: main-section;
+}
+#bestsellers{
+    grid-area: bestsellers;
+}
+
+footer{
+    grid-area: footer;
+}
